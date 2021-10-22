@@ -1,0 +1,32 @@
+GET http://127.0.0.1:3000/
+
+###
+
+POST  http://127.0.0.1:3000/users
+content-type: application/json
+
+{
+    "name":"Abhishek Agrawal",
+    "age":28
+}
+
+###
+
+GET http://127.0.0.1:3000/users
+
+###
+
+GET http://127.0.0.1:3000/users/27
+
+###
+
+PUT http://127.0.0.1:3000/users/27
+content-type: application/json
+
+{
+    "name":"Abhishek"
+}
+
+###
+
+DELETE  http://127.0.0.1:3000/users/27
