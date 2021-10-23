@@ -3,18 +3,18 @@
 ### CRUD Operations
 
 - GET home
-  - [GET] http://localhost:3000/
+  - [GET] https://my-rest-apis-27.herokuapp.com/
 - Create an user
-  - [POST] http://localhost:3000/users
+  - [POST] https://my-rest-apis-27.herokuapp.com/users
 - Get all users
-  - [GET] http://localhost:3000/users
+  - [GET] https://my-rest-apis-27.herokuapp.com/users
 - Get an user
-  - [GET] http://localhost:3000/users/{id}
+  - [GET] https://my-rest-apis-27.herokuapp.com/users/{id}
 - Update an user
-  - [PUT] http://localhost:3000/users/{id}
+  - [PUT] https://my-rest-apis-27.herokuapp.com/users/{id}
 - Delete an user
-  - [DELETE] http://localhost:3000/users/{id}
+  - [DELETE] https://my-rest-apis-27.herokuapp.com/users/{id}
 
-##### To use test.rest file and execute the APIs in the VSC use below extenstion,
+##### To hit the APIs via test.rest file (Configured In Dev Mode), we need below VSCode extenstion,
 
 ###### https://marketplace.visualstudio.com/items?itemName=humao.rest-client
